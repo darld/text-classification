@@ -10,5 +10,9 @@ For this text classfication, i am using transfer learning method by leverage ELM
 6. click Ctrl + Enter to run the code
 7. at the end of the running process, the submission.csv could be found on the current directory and column ['categrory'] is the prediction made by model.
 
+### Limitation of this example code
+
+1. ELMo is trained in English, however the sample data is in Indonesia
+2, Training time in COLAB is too slow, run with juytper notebook in GCP instance will enhance the training time
 
 
